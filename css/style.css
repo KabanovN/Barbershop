@@ -1,0 +1,238 @@
+body {
+    margin: 0;
+    padding: 0;
+
+    
+    font-family: "PT Sans Narrow", Arial, sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+
+    background: url('img/background_img.jpg') no-repeat top center;
+    background-color: #000000;
+}
+
+/* общие значения свойств */
+a {
+    text-decoration: none;
+    font: inherit;
+    color: white;
+}
+
+li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+h3 {
+    margin: 0;
+
+    font-size: 30px;
+    line-height: 42px;   
+}
+
+.button {
+    font-weight: inherit;
+    text-transform: uppercase;
+    
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.button:hover,
+.button:focus,
+.button:active {
+    background-color: #242424;
+}
+
+
+/* РАЗДЕЛ HEADER */
+.header{
+    margin-bottom: 75px;
+}
+
+/* навигация */
+.nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header-wrapper {
+    background-color: black;
+    margin-bottom: 60px;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    width: 940px;
+    min-height: 70px;
+    margin: 0 auto;
+}
+
+.nav-list {
+    width: 550px;
+    margin: 0;
+    padding: 0;
+}
+
+.user-list {
+    width: 140px;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* главный логотип */
+.nav .logo-link {
+    width: 371px;
+    height: 155px;
+    margin: 0 auto;
+}
+
+
+/* РАЗДЕЛ MAIN  */
+.main-page {
+    margin-bottom: 65px;
+}
+
+.main-page .visually-hidden {
+    text-align: center;
+}
+
+
+/* оформление Преимущества */
+.features {
+    width: 940px;
+    margin: 0 auto;
+    margin-bottom: 85px;
+}
+
+.features-list {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+.feature-item {
+    width: 300px;
+    
+    list-style: none;
+    text-align: center;
+}
+
+
+/* оформление Новости и Галерея */
+.column-layout {
+    display: flex;
+    justify-content: space-between;
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 80px;
+    box-sizing: border-box;
+
+    background-color: #f8f5f2;
+    color: black;
+    /* background: url('img/background_section_img.jpg') repeat 0 0; */
+}
+
+.column-layout:first-of-type {
+    margin-bottom: 35px;
+}
+
+.column-layout:last-of-type {
+    height: 435px;
+}
+
+.news {
+    width: 380px;
+}
+
+.news-list {
+    margin: 0;
+    padding: 0;
+}
+
+time {
+    text-transform: lowercase;
+}
+
+.gallery {
+    width: 300px;
+}
+
+.gallery-content {
+    margin: 0;
+
+    border: 7px solid white;
+}
+
+/* оформление контакты и запись */
+
+.contacts {
+    width: 380px;
+}
+
+.booking {
+    width: 300px;
+}
+
+.booking-input-field input{
+    font: inherit;
+
+    background-color: transparent;
+    border: 2px solid black;
+} 
+
+.booking-input-field input:focus {
+    border-color: #663d15;
+}
+
+
+/* РАЗДЕЛ FOOTER  */
+
+.footer {
+    margin-bottom: 0;
+
+    background-color: #232323;
+}
+
+.footer .container {
+    display: flex;
+    width: 940px;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.footer-contacts {
+    margin: 0;
+    padding: 0;
+    margin-right: 90px;
+}
+
+.footer-socials {
+    width: 140px;
+}
+
+.social-list {
+    margin: 0;
+    padding: 0;
+}
+
+.footer-copyrights {
+    margin-left: auto;
+    width: 140px;
+}
+
+
+
+/* ОФОРМЛЕНИЕ МОДАЛЬНЫХ ОКОН */
+
+
